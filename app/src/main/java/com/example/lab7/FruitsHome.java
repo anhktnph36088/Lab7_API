@@ -50,7 +50,7 @@ public class FruitsHome extends AppCompatActivity {
         nestedScrollView = findViewById(R.id.nestScrollView);
         recycle_fruits = findViewById(R.id.recycle_fruits);
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.maain), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
